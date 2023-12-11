@@ -7,10 +7,9 @@ import webpack from 'webpack'
 //Создание путей для передачи их в функцию которая содержит конфинг вебпака
 
 export default (env: IBuildEnv) => {
-	
 	const paths: IBuildPath = {
 		//Создание путя для вхождения ts файла
-		entry: path.resolve(__dirname, 'src', 'index.ts'),
+		entry: path.resolve(__dirname, 'src', 'index.tsx'),
 		//место где собирается весь проекта
 		build: path.resolve(__dirname, 'build'),
 		//путь до html файла, формирование шаблона
