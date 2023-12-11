@@ -1,7 +1,6 @@
-import { IBuildOptions, IBuildPath } from './types/buildTypes'
+import { IBuildOptions } from './types/buildTypes'
 
 import HtmlWebpackPlugin from 'html-webpack-plugin'
-import path from 'path'
 import webpack from 'webpack'
 
 export function buildPlugins({
