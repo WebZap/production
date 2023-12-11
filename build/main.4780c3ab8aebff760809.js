@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log("its working"),"".concat(1),document.body.innerHTML="hello world"})();

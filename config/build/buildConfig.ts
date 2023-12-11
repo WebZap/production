@@ -25,7 +25,7 @@ export function buildConfig(options: IBuildOptions): webpack.Configuration {
 		plugins: buildPlugins(options),
 		// Блок подключаемы Лоадеров
 		module: {
-			rules: buildLoaders(),
+			rules: buildLoaders(options),
 		},
 		//Блок пожключаемыех резолверо
 		resolve: buildResolvers(),

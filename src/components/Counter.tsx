@@ -1,7 +1,6 @@
-import './Counter.scss'
-
 import React, { useState } from 'react'
 
+import style from './Counter.module.scss'
 import useCount from '../hooks/useCount'
 
 export const Counter = () => {
@@ -9,7 +8,7 @@ export const Counter = () => {
 
 	return (
 		<div>
-			<div className='count'>{count}</div>
+			<div className={style.count}>{count}</div>
 			<div onClick={increment}>+ прибавить</div>
 			<div onClick={decrement}>- отнять</div>
 		</div>
