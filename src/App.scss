@@ -1,8 +1,11 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+@import './reset.scss';
+@import './styles/variables/global.scss';
+@import './styles/themes/normak.scss';
+@import './styles/themes/dark.scss';
+
 .app {
-	font-size: 30px;
+	font: var(--font-m);
+	background: var(--bg-color);
+	color: var(--primary-color);
+	min-height: 100vh;
 }

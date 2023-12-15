@@ -14,7 +14,6 @@ export interface IBuildOptions {
 }
 
 //Типы путей окружения
-
 export interface IBuildEnv {
 	mode: TBuildMode
 	port: number
